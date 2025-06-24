@@ -225,7 +225,7 @@
 
       renderLoadingState();
 
-      const url = `https://api.fda.gov/drug/label.json?search=openfda.manufacturer_name:"${mah}"&limit=99`;
+      const url = `https://api.fda.gov/drug/label.json?search=openfda.manufacturer_name:"${mah}"&limit=999`;
 
       try {
         const response = await fetch(url);
